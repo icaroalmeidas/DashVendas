@@ -1,6 +1,6 @@
 # Projetos em PowerBI
 
-## Dashboard - Aquisição de Leads
+## Dashboard - Vendas
 
 O processo de criação de um dashboard de captação de leads usando a modelagem de esquema estrela envolve limpar a base de dados, organizar as dimensões e tabela fato e estabelecer os relacionamentos entre elas. O objetivo é monitorar métricas como taxa de eficiência, quantidade de leads inválidos, faturamento, entre outras, para obter insights e tomar decisões estratégicas. O dashboard permite visualizar os dados de forma clara e identificar padrões e oportunidades de melhoria na captação de leads.
 
