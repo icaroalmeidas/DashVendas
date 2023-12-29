@@ -2,79 +2,86 @@
 
 ## Dashboard - Vendas
 
-O processo de criação de um dashboard de captação de leads usando a modelagem de esquema estrela envolve limpar a base de dados, organizar as dimensões e tabela fato e estabelecer os relacionamentos entre elas. O objetivo é monitorar métricas como taxa de eficiência, quantidade de leads inválidos, faturamento, entre outras, para obter insights e tomar decisões estratégicas. O dashboard permite visualizar os dados de forma clara e identificar padrões e oportunidades de melhoria na captação de leads.
+O processo de criação de um dashboard usando a modelagem de esquema estrela envolve limpar a base de dados, organizar as dimensões e tabela fato e estabelecer os relacionamentos entre elas.
 
-Para acessar o DashBoard:  [CLIQUE AQUI!](https://app.powerbi.com/view?r=eyJrIjoiMDYzMjc2YWItODkyOS00NDU2LWI3MzQtNWNjOWIzNjhjMzNjIiwidCI6IjdlYWMxYzIzLWMxZjUtNGY1Ni1iYmNhLTUzZjMxZmZiMTQ0YSJ9)
+Para acessar o DashBoard:  [CLIQUE AQUI!](https://app.powerbi.com/view?r=eyJrIjoiYmMxNzNmYzYtOWMyNS00YTQ4LThkOGYtZDVhZDQ1NjY5N2I1IiwidCI6IjdlYWMxYzIzLWMxZjUtNGY1Ni1iYmNhLTUzZjMxZmZiMTQ0YSJ9)
 
-O processo de criação de um dashboard de captação de leads usando a modelagem de esquema estrela envolve várias etapas essenciais para garantir a efetividade e a precisão dos insights obtidos.
+O processo de criação de um dashboard de vendas usando a modelagem de esquema estrela envolve várias etapas essenciais para garantir a efetividade e a precisão dos insights obtidos.
 
 |                     |
 |:-------------------:|
-|   ![image](https://github.com/icaroalmeidas/PowerBI/assets/106759439/7aa6ee5c-22ac-476b-8bfe-7d847bca01b3)    |
+|   ![image](https://github.com/icaroalmeidas/DashVendas/assets/106759439/dd37c34f-4307-4e35-aaa3-2c2a0f9114d4)|
 
 ## Primeira página 
-Encontramos um indicador fundamental: a Taxa de Eficiência. Esse indicador nos mostra a porcentagem de leads aproveitados em relação à quantidade total de leads captados. Com essa métrica em mãos, podemos avaliar o desempenho das nossas campanhas e identificar áreas para otimização. Podemos ver 4 gráficos onde podemos ver algumas relações importantes.
+Na primeira página, encontramos um resumo geral onde podemos visualizar de forma rápida indicadores muito importantes, como faturamento, pedidos entregues, pedidos enviados, pedidos cancelados e pedidos com problemas. Além disso, temos gráficos intuitivos que mostram a situação do nosso negócio.
+Um exemplo desses gráficos é a tabela que demonstra o faturamento por canal de venda distribuído de acordo com o status do pedido.
 |                     |
 |:-------------------:|
-|   ![image](https://github.com/icaroalmeidas/PowerBI/assets/106759439/a956153e-fcaf-491d-b778-2666fe2a6d07)   |
+|  ![image](https://github.com/icaroalmeidas/DashVendas/assets/106759439/34cffdfc-19a7-452e-a2ec-8ba6945e7d06)|
 
-## Segunda página
-Encontramos informações importantes sobre a qualidade dos leads. Podemos visualizar a quantidade de leads inválidos e repetidos, o que nos auxilia na identificação de possíveis problemas de segmentação ou fontes de dados inconsistentes. Essa visão detalhada nos ajuda a manter a base de dados organizada e nos traz insigths de que devemos traçar estratégias para minimizar leads repetidos e invalidados.  Nos gráficos podemos ver relações importantes como a Quantiade de leads por equipe que nos ajuda e acompanhar o desempenho do time.
+Um exemplo desses visualizações é esta matriz que demonstra o faturamento por canal de venda distribuído de acordo com o status do pedido.
 |                     |
 |:-------------------:|
-|   ![image](https://github.com/icaroalmeidas/PowerBI/assets/106759439/21621090-a430-4c4b-ae7f-4f83a2b56bb5)  |
+|  ![image](https://github.com/icaroalmeidas/DashVendas/assets/106759439/bc1863bf-e3bf-460d-ac9c-539dabd72dfe)|
 
-## Terceira página
-Nessa página, podemos encontrar informações importantes sobre o desempenho das nossas vendas. Temos uma visão geral do faturamento, investimento e retorno sobre investimento (ROI). Essas informações nos permitem avaliar a eficácia de nossas campanhas em termos de retorno financeiro.
+## Insights:
+Ao analisar o faturamento gerado por cada canal de venda, podemos identificar quais canais são responsáveis ​​pela maior parte da receita. Isso pode nos ajudar a direcionar nossos esforços e recursos para os canais mais rentáveis.
 
-Além disso, podemos analisar as métricas relacionadas às vendas, como quantidade de leads aproveitados, quantidade de vendas e ticket médio. Com esses dados em mãos, podemos identificar tendências e relacionar o desempenho das vendas com diferentes canais de aquisição.
+Observando a distribuição do faturamento pelos diferentes estados do pedido (entregue, enviado, cancelado, com problemas), podemos identificar se há algum gargalo ou problema no processo de envio que está impactando o faturamento.
 
-Nos gráficos, podemos visualizar a quantidade de vendas por dia e como ela se relaciona com diferentes canais de aquisição. Essa análise nos ajuda a identificar quais canais estão gerando mais vendas e como podemos otimizar nossas estratégias para maximizar os resultados.
+Identificação de oportunidades de crescimento: Ao analisar a distribuição do faturamento em diferentes estados do pedido, também podemos identificar áreas de oportunidade para aumentar o faturamento.
 
+Avaliação do desempenho dos canais de venda: Comparando o faturamento gerado em cada estado do pedido entre diferentes canais de venda, podemos avaliar o desempenho de cada canal em termos de entrega, cancelamentos e problemas.
+
+## Analise detalhada
 |                     |
 |:-------------------:|
-|   ![image](https://github.com/icaroalmeidas/PowerBI/assets/106759439/cf2e2c09-8a1e-4398-9512-c064e134a6dc)  |
+|   ![image](https://github.com/icaroalmeidas/DashVendas/assets/106759439/62bea66a-67f7-4df3-9678-825b862ad0c5)|
 
-## Simulador de Faturamento
-Por fim, na quarta página, temos um simulador de faturamento com base nos dados anteriores. Esse recurso nos ajuda a projetar receitas futuras com base no desempenho passado. Com essa projeção, podemos tomar decisões financeiras mais embasadas e direcionar nossos investimentos de forma estratégica.
+Ao clicarmos em "Análise detalhada", teremos acesso a uma árvore hierárquica que nos dará uma infinidade de possibilidades de análises. Nela, podemos distribuir o faturamento por região, estado, status do pedido, canal de venda, cor do produto e tamanho, entre outros critérios. Isso nos permite explorar diferentes variáveis e segmentações para obter insights mais específicos sobre o desempenho do negócio.
 
+Podemos analisar o faturamento por região e identificar quais regiões estão contribuindo mais para a receita total. Em seguida, podemos aprofundar a análise e visualizar o faturamento por estado dentro de cada região, identificando padrões e oportunidades de crescimento.
+
+Segmentar o faturamento por canal de venda e observar como cada canal contribui para o faturamento total. Podemos comparar o desempenho dos canais, identificar os mais eficientes e explorar possíveis estratégias para otimizar a distribuição de recursos.
+
+Podemos explorar a distribuição do faturamento por cor do produto ou tamanho e identificar quais produtos têm maior demanda e contribuem para uma parte significativa do faturamento.
+
+Essa análise detalhada nos permite entender melhor as diferentes variáveis que impactam o faturamento e nos fornece insights valiosos para tomar decisões estratégicas e direcionar nossos esforços de forma mais eficiente.
+
+Vale ressaltar que a árvore hierárquica pode variar dependendo das informações disponíveis no conjunto de dados e dos objetivos específicos de análise do negócio.
+
+## Matrix correlação
 |                     |
 |:-------------------:|
-|   ![Design sem nome (1)](https://github.com/icaroalmeidas/PowerBI/assets/106759439/353e6511-6286-4be0-ab19-5dc4d0b9200b) |
+|   ![image](https://github.com/icaroalmeidas/DashVendas/assets/106759439/be81ed4e-e674-46ba-a428-4b50bc0b5146)|
+
+Nesta matriz, podemos visualizar a correlação entre o faturamento por estado e a forma de pagamento utilizada pelos clientes. Através dessa análise, podemos identificar possíveis padrões ou relações entre essas variáveis.
+
+Se observarmos uma correlação positiva significativa entre o faturamento e a forma de pagamento "cartão de crédito" em um determinado estado, podemos deduzir que essa forma de pagamento é popular entre os clientes nesse estado e pode estar relacionada a um maior volume de vendas ou gasto médio por compra.
+
+Por outro lado, se notarmos uma correlação negativa entre o faturamento e a forma de pagamento "boleto bancário", isso pode indicar que os clientes desse estado têm uma preferência por outras formas de pagamento, o que pode impactar negativamente o faturamento relacionado a essa forma específica de pagamento.
+
+Essa análise de correlação nos ajuda a entender melhor como fatores como estado e forma de pagamento podem afetar o faturamento e pode ser útil na formulação de estratégias de vendas e marketing para impulsionar o crescimento do negócio. É importante lembrar que a interpretação da correlação deve levar em consideração o contexto específico do negócio e outras variáveis relevantes que possam estar influenciando o relacionamento observado.
 
 # Levantamento de Requisitos
 
 ## Modelo de negócios da empresa: 
-Venda de empréstimos online e offline. Nós temos uma
+Venda de roupas online e offline. Nós temos uma
 loja física, onde os clientes podem ser atendidos, e também temos uma equipe de venda
-que atende os clientes online. Para a captação desses clientes, utilizamos as redes sociais,
-panfletos, estratégias de indicação, além de tráfego pago. Atualmente não utilizamos CRM,
-mas pretendemos começar em breve.
+que atende os clientes online.
 
-## Público do relatório: Gestor comercial.
+## Público do relatório: Gerente
 
 ## Propósito da análise: 
-Possibilitar o gestor acompanhar a situação atual da qualidade dos
-leads oriundos das diferentes estratégias de marketing. O relatório será utilizado para
-otimizar as vendas a partir de melhorias na captação de clientes.
+Possibilitar ao gerente obter dados em tempo real que o auxilie nas tomadas de decisão com relação estrategias de vendas.
 
 ## Indicadores necessários:
-1. Taxa de eficiência (quantidade de leads aproveitados dividido pela quantidade total
-de leads);
-2. Quantidade de leads inválidos;
-3. Quantidade de leads repetidos;
-4. Total de vendas;
-5. Faturamento;
-6. Quantidade total de leads;
-7. Taxa de leads inválidos;
-8. Taxa de leads repetidos;
-9. Quantidade de leads por canal de aquisição;
-10. Quantidade de leads por status;
-11. Quantidade de leads por equipe;
-12. Quantidade de leads por Estado;
-13. Horário de captação dos leads;
-14. Quantidade de leads por mês;
-15. Investimento.
+1. Faturamento
+2. Status dos pedidos
+3. Produto mais vendido por cor e tamanho
+4. Faturamento por canal de venda
+5. Faturamento por estado
+6. Faturamento por forma de pagamento
 
 
 Se você tiver alguma dúvida ou sugestão sobre o dashboard, estou à disposição para discutir e colaborar. Vamos juntos alcançar novos patamares na aquisição de leads!
